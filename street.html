@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>streettt</title>
+    <style>
+        .menu{
+            display: flex;
+        
+    
+        }
+    </style>
+</head>
+<body>
+    <br>
+    <div class="menu">
+        <div class="p1info">
+            <div id="p1Name">Player 1</div>
+            <img id="p1" src="images/milkshake1.png">
+            <div class="playerControls">
+                <div class="AttackDiv">
+                    <h3>Q:</h3>
+                    <button id="attack" onclick="player1.strike(player1, player2,player1.attackDmg)">Attack</button>
+                </div>
+                <div class="HealDiv">
+                    <h3>A:</h3>
+                    <button id="heal" onclick="player1.heal(player1)">Heal</button>
+                </div>
+            </div>
+            <div id="p1Health">100</div>
+        </div>
+        <button id="play">Simulate</button>
+
+        <div class="p2info">
+            <div id="p2Name">Player 2</div>
+            <img id="p2" src="images/cheeseburger1.png">
+            <div class="playerControls">
+                <div class="AttackDiv">
+                    <h3>P:</h3>
+                    <button id="attack" onclick="player2.strike(player2, player1,player2.attackDmg)">Attack</button>
+                </div>
+                <div class="HealDiv">
+                    <h3>L:</h3>
+                    <button id="heal" onclick="player2.heal(player2)">Heal</button>
+                </div>
+            </div>
+            <div id="p2Health">100</div>
+        </div>
+    </div>
+    <br>
+
+    <div class="result container">
+        <div id="result"></div>
+        <button id="reset" onclick="game.reset(p1,p2)">Reset</button>
+    </div>
+    
+    <script src="street.js"></script>
+</body>
+</html>

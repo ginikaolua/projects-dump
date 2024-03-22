@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drop down menu</title>
+    <link rel="stylesheet" href="drop.css">
+    <style>
+
+      a{
+        transition: color 0.15s;
+      }
+      a:hover{
+        color:rgb(255, 102, 0) ;
+        
+      }
+      #p1{
+        font-weight: bold;
+        font-size: 24px;
+      }
+      #p2{
+        color: rgb(7, 141, 7);
+        font-size: 18px;
+        font-weight: bold;
+      }
+      #b1{
+        background-color: rgb(255, 214, 8);
+        border: none;
+        height: 30px;
+        width: 110px;
+        margin-right: 15px ;
+        border-radius: 15px;
+        cursor: pointer;
+        transition: background-color 0.15s , opacity 0.15s;
+      }
+      #b1:hover{
+        background-color: rgb(241, 197, 0);
+      }
+      #b1:active{
+        opacity: 0.7;
+      }
+      #b2{
+        background-color: rgb(255, 164, 28);
+        border: none;
+        height: 30px;
+        width: 110px;
+        border-radius: 15px;
+        cursor: pointer;
+        transition: background-color 0.15, opacity 0.15;
+      }
+      #b2:hover{
+        background-color: rgb(218, 147, 16);
+      }
+      #b2:active{
+        opacity: 0.7;
+      }
+
+    </style>
+</head>
+<body>
+    <a href="https://www.youtube.com/" target="_blank">
+      Back to Amazon
+    </a>
+    <p id="p1">
+      Nike Black Running Shoes.
+    </p>
+    <p id="p2">
+      $39 - in stock.
+    </p>
+    <p>
+      Free delivery tomorrow.
+    </p>
+    <button id="b1">
+      Add to Cart
+    </button>
+    <button id="b2">
+      Buy now
+    </button>
+</body>
+</html>

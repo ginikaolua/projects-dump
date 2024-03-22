@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid</title>
+</head>
+<body style="padding-bottom: 1000px">
+    <div style=
+    "display: grid;
+    grid-template-columns: 100px 100px;"    
+    >
+        <div style="background-color: lightblue">div 1</div>
+        <div style="background-color: lightpink;">div 2 <p>Hi</p> </div>
+    </div>
+    <div style="
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 100px 1fr;"    
+    >
+        <div style="background-color: lightblue">div 1</div>
+        <div style="background-color: lightpink;">div 2 <p>Hi</p> </div>
+    </div>
+    <div style=
+    "display: grid;
+    margin-top: 30px;
+    grid-template-columns: 100px 100px 1fr;"    
+    >
+        <div style="background-color: lightblue">div 1</div>
+        <div style="background-color: lightpink;">div 2 <p>Hi</p> </div>
+        <div style="background-color: lightblue">div 3</div>
+        <div style="background-color: lightpink">div undefined</div>
+    </div>
+
+    <div style="
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 100px 1fr 2fr;"    
+    >
+        <div style="background-color: lightblue">div 1</div>
+        <div style="background-color: lightpink;">div 2 <p>Hi</p> </div>
+        <div style="background-color: lightblue">div 3</div>
+    </div>
+
+
+
+    <div style="
+    margin-top: 30px;
+    display: grid;
+    height: 200px;
+    column-gap: 20px;
+    row-gap: 40px;
+    grid-template-columns: 1fr 1fr 1fr;"    
+    >
+        <div style="background-color: lightblue">div 1</div>
+        <div style="background-color: lightpink;">div 2</div>
+        <div style="background-color: lightblue">div 3</div>
+        <div style="background-color: lightpink;">div 4</div>
+        <div style="background-color: lightblue">div 5</div>
+        <div style="background-color: lightpink;">div 6</div>
+    </div>
+
+    <div style="
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    row-gap: 10px;
+    column-gap: 20px;
+    margin-top: 30px;
+    ">
+        <div style="background-color: lightblue">col1</div>
+        <div style="background-color: lightpink;">75px</div>
+        <div style="background-color: lightblue">col3</div>
+        <div style="background-color: lightpink;">75px</div>
+        <div style="background-color: lightblue">col3</div>
+        <div style="background-color: lightpink;">75px</div>
+        <div style="background-color: lightblue">col3</div>
+        <div style="background-color: lightpink;">75px</div>
+        
+    </div>
+</body>
+</html>

@@ -1,0 +1,38 @@
+#innerdiv{
+    background-color: lightgreen;
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+}
+#outerdiv{
+    background-color: lightgreen;
+    height: 200px;
+    width: 200px;
+    
+}
+
+#myimage{
+    width: 300px;
+}
+#anotherdiv{
+    border: 1px solid gray;
+    width: 100px;
+    height: 100px;
+    background-color: gold;
+    position: relative;
+}
+
+#begindiv{
+    background-color: lightgreen;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    margin-top: 60px;
+}
+canvas{
+    margin-bottom: 100px;
+    border: 1px solid black;
+    background-color: white;
+    margin-top: 400px;
+}
+

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bro tutorial</title>
+    <link rel="stylesheet" href="bro.css">
+</head>
+<body style="margin-bottom: 1000px;">
+
+    <label id="mytext">Enter your name:</label> <br>
+    <input id="uname" type="text" > <br>
+
+    <button onclick="addup()">Submit</button>
+    <p id="p1"></p>
+    <p id="p2"></p>
+
+    <label id="labela">Side A:</label> 
+    <input type="number"  id="sideA">
+    <label id="labelb"> Side B:</label>
+    <input type="number" id="sideB"> <br>
+    <button onclick="hyp()">Answer</button>
+    <label id="labelc">Side C:</label> <br>
+
+    <label style="margin-left: 76px; font-size: 50px;" id="counter">0</label> <br>
+    <button onclick="down()">decrease</button>
+    <button onclick="reset()">reset</button>
+    <button onclick="up()" >increase</button> <br>
+    <div>.</div>
+
+    <label for="checkbox" id="checker">Subscribe</label>
+    <input type="checkbox" id="checkbox"> <br>
+
+    <button id="subber" onclick="sub()">Submit</button><br>
+
+    <input type="radio" name="card">
+    <input type="radio" name="card">
+    <input type="radio" name="card">
+
+    <div id="rect"></div>
+
+    <h1>Number Guessing Game</h1>
+    <p>Pick a number between 0- 10</p>
+    <label for="numbergame">Enter a guess</label>
+    <input type="number" id="numbergame"> <br>
+    <button onclick="guess()">Submit</button> <br>
+    <div>-</div>
+    <label>Enter a temperature</label> <br>
+    <input id="temp" type="number"> <br>
+    <label>convert to:</label> <br>
+    <label for="celsius">Celsius</label>
+    <input id="celsius" type="radio" name="unit"> <br>
+    <label for="fahrenheit">Fahrenheit</label>
+    <input type="radio" id="fahrenheit" name="unit"> <br>
+    <button onclick="convert()">submit</button> <br>
+    <label id="anss"></label> <br>
+    <label id="lab"></label> 
+    <h1 id="heh"></h1>
+    <h1 id="myh1"></h1>
+    <h1 id="hey">hello</h1>
+    <input type="radio" name="fruits" value="apple">
+    <label for="apple">apple</label><br>
+    <input type="radio" name="fruits" value="orange" checked>
+    <label for="orange">orange</label><br>
+    <input type="radio" name="fruits" value="banana">
+    <label for="banana">banana</label>
+    <input type="range">
+
+    <ul id="fruiting">
+        <li>apple</li>
+        <li>Orange</li>
+        <li>pineapple</li>
+    </ul>
+    <ul id="vegetables">
+        <li>onions</li>
+        <li>mushroom</li>
+        <li>carrot</li>
+    </ul>
+    <ul id="dessert">
+        <li>ive cream</li>
+        <li>cake</li>
+        <li>pie</li>
+    </ul>
+    <div id="outerdiv">
+        <div id="innerdiv"></div>
+    </div>
+    <button id="toggle" >toggle</button> <br>
+    <img src="images/ginika.jpeg" id="myimage" style="display: none;">
+    <p>press the button</p>
+    <div id="anotherdiv"></div>
+
+    <button id="beginbut">Begin</button>
+    <div id="begindiv"></div>
+
+    <canvas id="mycanvas" width="500" height="500"></canvas> <br>
+    <button id="butt">button</button> <br>
+
+    <label for="firstText">First Name</label>
+    <input type="text" id="firstText"> <br>
+    <label for="lastText">Last Name</label>
+    <input type="text" id="lastText"> <br>
+    <button id="submitbtn">submit</button>
+    <button id="cookiebtn">get cookies</button>
+
+    <script  type="module" src="bro.js"></script>
+</body>
+</html>

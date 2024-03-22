@@ -1,0 +1,85 @@
+*{
+    color: white;
+    font-family: cursive;
+}
+body{
+    background-color:rgb(79, 157, 177);
+}
+.cover{
+    background-color: rgb(31, 68, 83);
+    height: 550px;
+    width: 370px;
+    border-radius: 1rem;
+    padding: 1.2rem;
+    margin: 100px auto;
+}
+#topContainer{
+    margin-top: 4rem;
+}
+.inputContainer{
+    background-color: rgb(115, 142, 158);
+    border-radius: 1.4rem;
+    display: flex;
+    padding: 0 0.8rem;
+    align-items: center;
+}
+.billInput{
+    border: none;
+    padding: none;
+    outline: none;
+    font-size: 1.2rem;
+    background: none;
+    
+}
+.title{
+    font-weight: bold;
+    margin-bottom: 0.6rem;
+    font-size: 19px;
+}
+.container{
+    margin-top: 1.4rem;
+}
+.spa{
+    padding-right: 6px;
+}
+.controls{
+    display: flex;
+    align-items: center;
+
+}
+.splitButton{
+    background: none;
+    border: none;
+    font-size: 0.8rem;
+    font-weight: bold;
+    display: grid;
+    place-items: center;
+}
+.buttonContainer{
+    background-color: rgb(128, 128, 165);
+    display: grid;
+    place-items: center;
+    width: 1.6rem;
+    height: 1.6rem;
+    border-radius: 50%;
+    font-size: 16px;
+}
+.buttonText{
+    color: rgb(56, 47, 47) !important;
+}
+.splitAmount{
+    font-size: 1.6rem;
+    margin: 0.8rem;
+}
+#bottom{
+    display: flex;
+    justify-content: space-between;
+}
+.totalContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+.total{
+    font-size: 2rem;
+}

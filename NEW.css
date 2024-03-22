@@ -1,0 +1,84 @@
+/* *{
+    margin: 0;
+}
+ nav ul{
+    display: flex;
+    justify-content: flex-end;
+  /* position: fixed;
+}
+nav ul li{
+    padding: 10px;
+    list-style: none;
+    margin: 2px;
+}
+#logo{
+    width: 80vw;
+    background-color: red;
+    height: 200px;
+    margin-top: 40px;
+   
+}
+section{
+    display: flex;
+    justify-content: center;
+    
+    align-items: center;
+    position: relative;
+}
+.layer{
+    background: rgb(228, 219, 219);
+    width: 100%;
+    padding: 10px 5px;
+    border-bottom: 2px solid gray;
+}
+body{
+    padding-bottom: 10000px;
+    display: flex;
+    flex-direction: column;
+}
+nav, footer{
+    flex-shrink: 0;
+}
+ span{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: blueviolet;
+    top: 10px;
+    margin-top: 40px;
+    
+}
+footer{
+    margin-bottom: 100px;
+}*/
+body{
+    padding-bottom: 10000px;
+}
+
+.yellow{
+    background-color: yellow;
+    color: rgb(226, 117, 135);
+}
+.red{
+    background-color: red;
+    color: white;
+}
+
+#redLight{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+}
+#yellowLight{
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+}
+#greenLight{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+}
+#traffic{
+    display: flex;
+}

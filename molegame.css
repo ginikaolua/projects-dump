@@ -1,0 +1,17 @@
+.grid{
+    width: 610px;
+    height: 610px;
+    display: flex;
+    flex-wrap: wrap;
+    
+    
+}
+.square{
+ border: solid 1px black;
+ width: 199px;
+ height: 199px;
+}
+.mole{
+    background-image: url('images/ginika.jpeg');
+    background-size: cover;
+}
